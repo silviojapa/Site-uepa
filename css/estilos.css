@@ -1,0 +1,317 @@
+.fixFloat{
+    clear: both;
+}
+
+body{
+    margin:auto;
+    width:960px;
+    background-color:#ddd;
+    padding:0px;
+    background:url(fundo.gif) repeat-x;
+    overflow-y: scroll;
+}
+
+#cab img{
+    float:left;
+    margin-top:5px;   
+}
+
+#social{/*estrutura do imagens da rede sociais*/
+    float:right;
+    margin-top:20px;
+    border-radius: 10px 10px 10px 10px;
+}
+#social img{
+    width: 32px;
+    height: 32px;
+    padding:2px;
+    border-radius: 10px
+}
+
+/*estrutura do menu*/
+#menu{
+    float:left;
+    margin-top:15px;
+    width:700px;
+ 
+}
+#menu ul{
+    list-style:none;
+    padding:5px;
+    margin:0px;
+    background:linear-gradient(to bottom, #00E4F0, #006469);
+}
+#menu li{
+    height:47px;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    width:250px;
+    border-right:2px solid #336666;
+}
+#menu ul li a{
+    text-decoration:none;
+    font: 15px Futura Md BT;
+    color:white;
+}
+
+#banner{/*imagem do curso*/
+    margin-top: 10px
+}
+#banner img{
+    width: 960px  
+}
+
+#lateral{/*estrutura de informação do lado direito*/
+    float:right;
+    background: #6FE0E4;
+    width:195px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+}
+#lateral h1{
+    border-bottom: 1px solid #000;
+    padding:7px;
+    text-align: center;
+    margin-top: 1px;
+    font: 18px Futura Md BT;
+    font-weight: bold; 
+}
+#lateral h2{
+    padding:6px;
+    margin-top:3px;
+    font: 14px Futura Md BT;
+    font-weight: bold;
+}
+#lateral p{
+    padding: 3px;
+    text-align: justify;
+    margin-top:1px;
+  
+}
+
+
+#sobre-curso{/*estrutura do fundo da página*/
+background: linear-gradient(to bottom, #2B7A7A, #336666);
+padding: 10px 10px 10px 10px;
+border-radius: 0px 0px 10px 10px;
+margin-top: 10px;
+color:#FFF;
+font-size: 13pt;
+border-bottom: 2px solid #000;
+}
+#sobre-curso h1{
+    border-bottom: 2px solid #000;
+    margin-top:5px;
+    padding:5px;
+    background: white;
+    color: black;
+    font: 15px Futura Md BT;
+    font-weight: bold;
+}
+#sobre-curso p{
+    padding: 10px;
+    text-align: justify;
+}
+
+
+#coordenador{/*estrutura do fundo da página*/
+padding:10px 0px 10px 10px;
+border-radius: 10px;
+margin-top: 10px;
+color: black;
+font-size: 13pt;
+border-bottom: 2px solid #000
+}
+#coordenador h1{
+    border-bottom: 2px solid #000;
+    margin-top:5px;
+    padding:5px;
+    background: white;
+    color: black;
+    font: 15px Futura Md BT;
+    font-weight: bold;
+}
+#coordenador h2{
+    font-weight: bold;
+}
+#coordenador p{
+    padding: 10px;
+    text-align: justify;
+}
+
+
+#rodape{/*estrutura do fundo do rodapé*/
+    background-color: #336666;
+    padding: 10px 50px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    color:#FFF;
+    font-size: 13pt;
+    margin-top: 0px;
+}
+#rodape p{
+    display:inline-block;
+    width:300px;
+    text-align:center;
+    color: white
+}
+#rodape a{
+   width:300px;
+   color: white;
+}
+
+#colegiado{/*estrutura do fundo da página*/
+    background-color: #285959;
+    padding: 10px 50px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    color:#FFF;
+    font-size: 13pt;
+    border-bottom: 2px solid #000;
+    margin-top: 10px;
+}
+#colegiado h1{
+    border-bottom: 2px solid #000;
+    margin-top:5px;
+    padding:5px;
+    background: white;
+    color: black;
+    text-align: center;
+    font: 20px Futura Md BT;
+    font-weight: bold;
+}
+#tabela-colegiado{
+border: 1px solid #606060;
+border-spacing: 0px;
+margin-left: 10px;
+margin-right: 10px;
+background: white;
+}
+#tabela-colegiado td{
+border: 6px solid #285959;
+padding: 10px;
+padding-top: 10px;
+text-align: center;
+vertical-align: middle;
+color: black;
+}
+
+#nucleo-docente{/*estrutura do fundo da página*/
+    background-color: #285959;
+    padding: 10px 50px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    color:#FFF;
+    font-size: 13pt;
+    border-bottom: 2px solid #000;
+    margin-top: 10px;
+}
+#nucleo-docente h1{  
+    margin-top:5px;
+    padding:5px;
+    background: white;
+    color: black;
+    font: 14pt Futura Md BT;
+    font-weight: bold;
+}
+#tabela-nucleo{
+border: 1px solid #606060;
+border-spacing: 0px;
+margin-left: 10px;
+margin-right: 10px;
+background: white;
+}
+#tabela-nucleo td{
+border: 6px solid #285959;
+padding: 10px;
+padding-top: 10px;
+text-align: center;
+vertical-align: middle;
+color: black;
+}
+
+
+#sistem-avaliacao{/*estrutura do fundo da página*/
+    background: linear-gradient(to bottom, #2B7A7A, #336666);
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 10px;
+    color:#FFF;
+    font-size: 13pt;
+    border-bottom: 2px solid #000;
+}
+#sistem-avaliacao h1{
+    margin-top:5px;
+    padding:5px;
+    background: white;
+    color: black;
+    font: 14pt Futura Md BT;
+    font-weight: bold;
+}
+#sistem-avaliacao p{
+    padding: 10px;
+    text-align: justify;
+}
+
+
+#corpo-docente{/*estrutura do fundo da página*/
+    background: linear-gradient(to bottom, #2B7A7A, #336666);
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 10px;
+    color:#FFF;
+    font-size: 13pt;
+    border-bottom: 2px solid #000;
+}
+#corpo-docente h1{
+    margin-top:5px;
+    padding:5px;
+    background: white;
+    color: black;
+    font: 15px Futura Md BT;
+    font-weight: bold;
+    text-align: center;
+}
+#tabela-corpo{
+margin-left: 10px;
+margin-right: 10px;
+background: white;
+margin-top: 10px;
+color: black;
+}
+#tabela-corpo td{
+border: 3px solid #285959;
+padding: 10px;
+padding-top: 10px;
+text-align: center;
+vertical-align: middle;
+font-size: 11pt;
+}
+.linha1{
+        background-color: #66D7DB;
+        font-family: Arial; 
+        font-weight: bold;
+}
+
+#fale-conosco{ /*estrutura do fundo da página*/
+    background: linear-gradient(to bottom, #2B7A7A, #336666);
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 10px;
+    color:#FFF;
+    font-size: 13pt;
+}
+#fale-conosco label{/*formatação do texto*/
+font-size: 15pt;
+font-weight: bold;
+font-style: italic;
+font-family: Arial;
+color: white;
+display: block;
+margin-top:20px;
+}
+#fale-conosco input{/*formatação dos quadrados*/
+    border-radius: 5px;
+    margin-top:5px;
+    height: 20px;
+}
