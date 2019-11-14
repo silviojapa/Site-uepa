@@ -8,7 +8,7 @@ function validar(){
     var nasc = fContato.fNascimento.value;
 
 
-    if(nome=="" && nome==null){
+    if(nome==""){
       alert("Campo 'Nome' Obrigatorio")
       fContato.fNome.focus();
       return false;
@@ -34,7 +34,7 @@ function validar(){
       return false;
     }
 
-    if(email=="" && email==null){
+    if(email==""){
       alert("Campo 'Email' Obrigatório")
       fContato.fEmail.focus();
       return false;
