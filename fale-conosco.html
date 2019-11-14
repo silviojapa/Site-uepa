@@ -2,8 +2,9 @@
 <html lang="pt-br">
 <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <script type="text/javascript" src="js/efeito.js"></script>
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
         <title>UNIVERSIDADE DO ESTADO DO PARÁ</title>
 </head>
@@ -21,53 +22,53 @@
         </div>
         <nav id="menu">
             <ul>
-                <li><a href="index.html" target="self">PÁGINA INICIAL</a></li>
-                <li><a href="colegiado.html" target="self">Colegiado</a></li>
-                <li><a href="estruturas.html" target="self">Estruturas</a></li>
-                <li><a href="sistema-avaliação.html" target="self">Sistema de Avaliação</a></li>
-                <li><a href="corpo-docente.html" target="self">Corpo Docente</a></li>
-                <li><a href="nucleo-docente.html" target="self">Núcleo Docente</a></li>
-                <li><a href="fale-conosco.html" target="self">Fale Conosco</a></li>
+              <li><a href="index.html">PÁGINA INICIAL</a></li>
+              <li><a href="colegiado.html" >Colegiado</a></li>
+              <li><a href="estruturas.html" >Estruturas</a></li>
+              <li><a href="sistema-avaliação.html" >Sistema de Avaliação</a></li>
+              <li><a href="corpo-docente.html" >Corpo Docente</a></li>
+              <li><a href="nucleo-docente.html" >Núcleo Docente</a></li>
+              <li><a href="fale-conosco.html" >Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <br class="fixFloat">
-    
+
         <section id="fale-conosco">
             <form name="fContato" method="post" action="#">
 
-                <label>Nome</label>
-                    <input type="text" maxlength="50" size="60" name="fNome" placeholder="nome completo" autofocus required>
+                <label>Nome:</label>
+                <input type="text" maxlength="50" size="60" name="fNome" placeholder="nome completo">
 
                 <label>Telefone de Contato:</label>
-                    <input type="tel" maxlength="15" size="20" name="fFone" placeholder="(xx)xxxxx-xxxx" required>
+                <input type="tel" maxlength="15" size="20" name="fFone" placeholder="(xx)xxxxx-xxxx">
 
                 <label>Email:</label>
-                    <input type="email" maxlength="50" size="60" name="fEmail" placeholder="name@email.com" required>
+                <input type="email" maxlength="50" size="60" name="fEmail" placeholder="name@email.com">
 
                 <label>Cep:</label>
-                    <input type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}" required>
+                <input type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}">
 
-                <label>Módulo(Matutino-1/Vespertino-2):</label>
-                    <input type="number" min="1" max="2" step="1" value="1" name="fModulo" required>
+                <label>Módulo(Matutino-1/Vespertino-2):</legal>
+                <input type="number" min="1" max="2" step="1" value="1" name="fModulo">
 
-                <label>Data de Nascimento:</label>
-                    <input type="date" name="fNascimento" required>
+                <label>Data de Nascimento:</legal>
+                <input type="date" name="fNascimento"><br/><br/>
 
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                <input type="submit" onclick="validar()" value="Enviar">
+                <input type="reset" value="Limpar">
 
             </form>
         </section>
-    
+
     <br class="fixFloat">
-    
+
     <footer id="rodape">
         <p>Silvio Wanzeler Xavier</p>
         <p>TADS-2018-TURMA-A/CAST.</p>
         <a href="http://www.uepa.br/" target="_blank">Universidade do Estado do Pará-UEPA</a>
     </footer>
- 
+
 </body>
 </html>
