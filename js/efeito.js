@@ -7,7 +7,6 @@ function validar(){
     var modulo = fContato.fModulo.value;
     var nasc = fContato.fNascimento.value;
 
-
     if(nome==""){
       alert("Campo 'Nome' Obrigatorio")
       fContato.fNome.focus();
@@ -30,7 +29,7 @@ function validar(){
 
     if(isNaN(telefone)==true){
       alert("Apenas números no campo 'Telefone'")
-      form1.telefone.focus();
+      fContato.telefone.focus();
       return false;
     }
 
@@ -40,7 +39,7 @@ function validar(){
       return false;
     }
 
-    if(cep.length!=8){
+    if(cep.length!=9){
       alert("Obrigatório 8 números no Campo 'CEP'")
       fContato.fCep.focus();
       return false;
@@ -53,9 +52,13 @@ function validar(){
       fContato.fCep.focus();
       return false;
     }
+    if(nasc!=0){
+      alert("Confirme seu cadastro")
+      fContato.fNascimento.focus();
+      return false;
+    }
 
 }
-
 function bemVindo(){
   alert("Bem Vindo!");
 }
